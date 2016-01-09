@@ -1,38 +1,36 @@
-## Dropbox [(raw)](https://gist.github.com/CrabDude/040af9c1b93e350608ff/raw)
+## Blogger
 
-This is a basic Dropbox clone to sync files across multiple remote folders.
+This is a basic Blogger clone to create a blog with comments.
 
-Time spent: `<7>`
+Time spent: '11'
 
 ### Features
 
 #### Required
 
-- [x] Walkthrough Gif embedded in README
-- [x] README `Time spent:` includes the number of hours spent on the assignment
-- [x] Client can make GET requests to get file or directory contents
-- [ ] Client can download a directory as an archive
-- [x] Client can make HEAD request to get just the GET headers 
-- [x] Client can make PUT requests to create new directories and files with content
-- [x] Client can make POST requests to update the contents of a file
-- [x] Client can make DELETE requests to delete files and folders
-- [x] Server will serve from `--dir` or cwd as root
-- [x] Server will sync `HTTP` modifications over TCP to the Client
-- [x] Server will sync watched file modifications (e.g., `fs.watch`) over TCP to the Client
+- [x] User can Signup, Login and Logout with input validation
+- [x] Session and user accounts are persisted in a data store
+- [x] User can create and edit a blog post
+- [x] User can view blog posts with details on their Profile
+- [x] User can view anyone's blog with posts at the specified url
+- [x] User can comments on their blog posts on their Profile
+- [x] Logged In users can comment on any blog post
+- [x] Comments are viewable at the bottom of the associated blog post
 
 ### Optional
 
-- [ ] Client supports multiple connected clients
-- [ ] Client does not need to make additional `GET` request on `"write"` update
-- [ ] Client and User will be redirected from HTTP to HTTPS
-- [ ] Client will sync back to Server over TCP
-- [ ] Client will preserve a 'Conflict' file when pushed changes preceeding local edits
-- [ ] Client can stream and scrub video files (e.g., on iOS)
-- [ ] Client can create a directory with an archive
-- [ ] User can connect to the server using an FTP client
-
+- [ ] User can specify a vanity url for their blog 
+- [ ] User's passwords are secured additionally with a blacklist, salt and pepper
+- [ ] User can click "Remember Me" to remain logged in
+- [ ] Users can author blog posts with rich text
+- [ ] Clicking a blog tag redirects to a list of blogs and blog posts with the given tag
+- [ ] Users can include image(s) to be displayed on their blog post
+- [ ] Users can specify a future release date and time to make a blog post visible
+- [ ] Users can rate blog posts, and authors can view the aggregate rating
+- [ ] Users can upvote/downvote comments when logged in
+- [ ] Users can edit their comments
+- [ ] Public user profiles show their information, posts and comments
 
 ### Walkthrough
 
-`<Add your Walkthrough Gif here (by updating the image URL)>`
 ![Video Walkthrough](...)
