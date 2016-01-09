@@ -33,4 +33,4 @@ Time spent: '11'
 
 ### Walkthrough
 
-![Video Walkthrough](...)
+![Video Walkthrough](https://github.com/dhanya0312/blogger/blob/master/blogger.gif)
